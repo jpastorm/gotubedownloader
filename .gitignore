@@ -1,0 +1,33 @@
+# Build artifacts
+build/bin/
+*.dmg
+*.exe
+*.app
+
+# Frontend
+frontend/dist/
+frontend/node_modules/
+node_modules/
+
+# Go
+vendor/
+
+# Environment
+.env
+.env.*
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Thumbnails / caches
+Thumbs.db
+*.log
